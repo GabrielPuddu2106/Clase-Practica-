@@ -11,17 +11,24 @@ public class Ejercicio4{
 
         // DATOS DE ENTRADA
 
-        if ( a < = 0){
         System.out.println("Ingrese el valor de a");
         a = lector.nextDouble();
-        }  else {
+
+        if (a < = 0){
+            System.out.println("Ingrese nuevamente el valor de a ");
+            a  = lector.nextDouble();
+
+        } else if {
+       
 
         System.out.println("Ingrese el valor de b");
         b = lector.nextDouble();
 
         System.out.println("Ingrese el valor de c");
         c = lector.nextDouble();
+
         }
+        
         // OPERACIONES 
 
         discriminante = (b*b - 4*a*c);
